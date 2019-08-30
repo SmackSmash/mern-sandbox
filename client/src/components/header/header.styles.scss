@@ -1,0 +1,8 @@
+@import '../../sass/variables';
+
+.header {
+  width: 100%;
+  background: $headerRed;
+  display: flex;
+  justify-content: space-between;
+}

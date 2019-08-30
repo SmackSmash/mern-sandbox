@@ -1,0 +1,43 @@
+@import './variables';
+
+@mixin main-form-styles {
+  .main-form {
+    width: 100%;
+    background: #eee;
+    padding: 2rem;
+
+    &__section {
+      padding: 1rem 0;
+
+      &__label {
+        color: $bgBlack;
+        font-size: 1.5rem;
+      }
+
+      &__text-field {
+        outline: none;
+        width: 100%;
+        border: none;
+        padding: 1rem;
+        color: $bgBlack;
+        font-size: 1.5rem;
+      }
+
+      &__button {
+        background: $headerLinkRed;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        border: none;
+        padding: 1rem;
+        cursor: pointer;
+        outline: none;
+      }
+
+      &__error {
+        background: $headerRed;
+        font-size: 1.5rem;
+        padding: 1rem;
+      }
+    }
+  }
+}
